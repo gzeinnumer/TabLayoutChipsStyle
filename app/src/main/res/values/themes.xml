@@ -13,11 +13,4 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-
-    <style name="ChipTabLayout" parent="Widget.Design.TabLayout">
-        <item name="tabIndicatorColor">@android:color/transparent</item>
-<!--        <item name="tabIndicatorColor">@drawable/chip_outline_selected</item>-->
-        <item name="tabBackground">@drawable/selector_tab</item>
-        <item name="tabSelectedTextColor">@color/purple_500</item>
-    </style>
 </resources>
