@@ -24,18 +24,21 @@
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout"
-                style="@style/ChipTabLayout"
-                app:tabRippleColor="@null"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:background="@android:color/white"
+                android:background="@android:color/transparent"
                 android:minWidth="80dp"
                 android:minHeight="?attr/actionBarSize"
                 app:tabGravity="fill"
+                app:tabIndicator="@drawable/chip_outline_selected"
+                app:tabIndicatorColor="@android:color/transparent"
                 app:tabIndicatorGravity="center"
                 app:tabIndicatorHeight="30dp"
-                app:tabMode="scrollable" />
+                app:tabMode="scrollable"
+                app:tabRippleColor="@null"
+                app:tabSelectedTextColor="@android:color/white"
+                app:tabTextColor="@color/black" />
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
